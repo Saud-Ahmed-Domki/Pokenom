@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.cant{
+  margin-left: 100px;
+  text-align: left;
+}
+
+h1{
+  text-align: left !important;
+}
+
+p{
+  text-align: left !important;
+}
+
+section{
+  margin-bottom: -71px;
+  margin-top: -76px;
+}
+
+@media only screen and (max-width: 765px) {
+  .cant{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
